@@ -13,7 +13,7 @@ namespace Neo.SmartContract.Examples
     [ManifestExtra("Email", "dev@neo.org")]
     [ManifestExtra("Description", "This is a test contract for invoking NNS")]
     [ContractPermission("*", "*")]
-    public class OracleDemo : Framework.SmartContract
+    public class Test : Framework.SmartContract
     {
         [InitialValue("NdUL5oDPD159KeFpD5A9zw5xNF1xLX6nLT", ContractParameterType.Hash160)]
         private static readonly UInt160 owner = default;
